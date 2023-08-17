@@ -1,9 +1,16 @@
-
+import './App.css';
+import InputTodos from './components/InputTodos';
+import ListTodos from './components/ListTodos';
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return null
+  return (
+    <>
+      <div className="container">
+        <InputTodos />
+        <ListTodos />
+      </div>
+    </>
+  )
 }
 
 export default App
